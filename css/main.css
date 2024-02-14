@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+aside {
+    display: inline-block;
+    background-color: #222;
+}
+
+aside > div.navbar {
+    display: flex;
+    flex-direction: column;
+}
+aside > div.navbar > img {
+  height: 134px;
+  width: 120px;
+}
+aside > div.navbar > a {
+  text-decoration: none;
+  padding: 12px 24px;
+  color: white;
+  text-align: center;
+}
+aside > div.navbar > i{
+    color: white;
+    text-align: center;
+    margin: 12px;
+} 
+div.about{}
+div.about>h2{}
+div.about>p{}
+div.about>h3{}
+div.about>div.myskill{}
+div.about>div.myskill>{}
